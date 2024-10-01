@@ -25,3 +25,16 @@ print(lst)
 
 for i in lst:
     print(((i/24)**6)-7)
+
+m=0
+while m !=101:
+    m+=2
+    print(m)
+    if m>101:
+        break
+
+def op(red):
+    output=((red/24)**6)-7
+    return output
+
+print(op(389047038753025.2359375023572985739)*15)
